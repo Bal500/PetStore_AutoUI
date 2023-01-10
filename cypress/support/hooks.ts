@@ -1,0 +1,3 @@
+beforeEach(() => {
+  indexedDB.deleteDatabase('firebaseLocalStorageDb');
+});
